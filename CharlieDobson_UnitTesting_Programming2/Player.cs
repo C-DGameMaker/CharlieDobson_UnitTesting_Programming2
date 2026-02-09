@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CharlieDobson_UnitTesting_Programming2
-{
+
     internal class Player
     {
         public int MaxHealth { get; private set; }
@@ -45,4 +44,5 @@ namespace CharlieDobson_UnitTesting_Programming2
             X += deltaX;
             Y += deltaY;
         }
-}
+    }
+
